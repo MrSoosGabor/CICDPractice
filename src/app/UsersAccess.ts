@@ -1,8 +1,6 @@
 import { User } from "./UsersModel";
 import * as dbConnection from './DataBaseConnector';
 
-
-
 export class UsersAccess {
 
     public async connectToDb(){
@@ -15,7 +13,7 @@ export class UsersAccess {
 
     public async addUser(user: User) {
         const id = await dbConnection.addUser(user)
-        return id;
+        return "ID: " + id;
     }
 
     public async getUser(id: string) {
