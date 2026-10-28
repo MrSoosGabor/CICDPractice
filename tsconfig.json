@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "rootDir": "src",
+        "outDir": "dist",
+        "types": ["node", "jest"]
+    },
+    "include": ["src/**/*"]
+}
