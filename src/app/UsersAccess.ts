@@ -13,7 +13,7 @@ export class UsersAccess {
 
     public async addUser(user: User) {
         const id = await dbConnection.addUser(user)
-        return "ID: " + id;
+        return id;
     }
 
     public async getUser(id: string) {
