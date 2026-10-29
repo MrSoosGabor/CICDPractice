@@ -3,7 +3,6 @@ import { User } from "../app/UsersModel";
 
 
 describe('UsersAccess test suite', () => {
-    
     let usersAccess: UsersAccess;
 
     const someUser: User = {
